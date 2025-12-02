@@ -1,0 +1,33 @@
+/* 1. Google Fonts MUST come first */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@400;600;800&display=swap');
+
+/* 2. Then Tailwind */
+@import "tailwindcss";
+
+/* 3. Now your custom CSS */
+:root {
+  --max-w: 1200px;
+}
+
+body {
+  /* font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; */
+  font-family: 'Helios - Bold', Helvetica, Arial, Lucida, sans-serif;
+  color: #000;
+  background: #fff;
+}
+
+/* Simple serif headline utility */
+.serif-display {
+  font-family: 'Playfair Display', serif;
+}
+
+
+video:-webkit-full-screen {
+  object-fit: contain !important;
+  background: black !important;
+}
+
+video:fullscreen {
+  object-fit: contain !important;
+  background: black !important;
+}
