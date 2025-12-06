@@ -1,8 +1,9 @@
+// next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  output: 'export', // <--- Enables static export
   images: {
-    unoptimized: true,
+    unoptimized: true, // required for static export if using next/image
   },
 };
 
