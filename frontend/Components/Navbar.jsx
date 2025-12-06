@@ -8,7 +8,6 @@ export default function Navbar() {
   const [showTitle, setShowTitle] = useState(false);
 
   useEffect(() => {
-    
     //   console.log("window.innerHeigh" , window.innerHeigh);
     //   console.log("window.scrollY" , window.scrollY);
     const handleScroll = () => {
@@ -32,10 +31,14 @@ export default function Navbar() {
             showTitle ? "opacity-100" : "opacity-0"
           }`}
         >
-          NATALIE DAWSON
+          ROCLY SAGGOO
         </div>
 
-        <div className="hidden md:flex gap-8 text-[16px] font-bold">
+        <div
+          className={`hidden md:flex gap-8 text-[16px] font-bold ${
+            scrolled ? "text-black" : "text-white"
+          } `}
+        >
           <Link href="#">ABOUT</Link>
           <Link href="#">BOOKS</Link>
           <Link href="#">PODCAST</Link>

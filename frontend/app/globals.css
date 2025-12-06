@@ -31,3 +31,41 @@ video:fullscreen {
   object-fit: contain !important;
   background: black !important;
 }
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 100%; 
+  width: 100%;
+  height: 100%;
+  transition:
+    transform 1s ease-in-out,
+    left 1s ease-in-out,
+    opacity 0.8s ease-in-out;
+  opacity: 0;
+}
+
+/* Current Image (visible) */
+.slide.active {
+  left: 0;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+/* Previous Image: slide out + fade out */
+.slide.prev {
+  left: -100%;
+  transform: translateX(-100%);
+  opacity: 0;         /* ← hides the previous image */
+}
+
+.invert-white {
+  filter: invert(1) brightness(2);
+}

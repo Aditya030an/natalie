@@ -84,15 +84,16 @@ export default function Subscribe() {
           {/* LEFT CONTENT */}
           <div className="w-1/2 h-full">
             <h2 className="text-[24px] font-semibold tracking-wide leading-snug mb-6">
-              JOIN THE “BUSINESS &” <br /> NEWSLETTER
+              JOIN THE “REAL SCALING” <br /> NEWSLETTER
             </h2>
 
             <p className="text-[14px] text-[#333] leading-relaxed mb-4">
-              Not another feel-good email. Enter the scale dispatch as this is
-              your weekly dose of straight-to-the-point strategy, market trend
-              updates, and sharp definitions that give you the edge.
+              No hype. No filler. Just weekly clarity for founders doing $1M+
+              who want real growth — not more chaos. Expect sharp strategies,
+              smarter systems, and insights used to help scale over $8B in
+              businesses.
               <span className="font-semibold">Delivered with zero fluff</span> –
-              just the insights to keep you scaling and one move ahead.
+              — only the moves that keep you in control and one step ahead.
             </p>
           </div>
 
@@ -103,7 +104,6 @@ export default function Subscribe() {
               type="text"
               className="w-full bg-white border border-gray-300 px-4 py-1 text-md focus:outline-none focus:ring-2 focus:ring-black transition-all"
               placeholder="Name"
-
             />
 
             {/* Email */}

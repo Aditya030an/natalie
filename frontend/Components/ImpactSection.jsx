@@ -6,27 +6,27 @@ import { FaPlay } from "react-icons/fa";
 export default function ImpactSection() {
   const videos = [
     {
-      src: "/video2.mp4",
+      src: "/video3.mp4",
       name: "ALEJANDRA AVILA",
       text: `“Looking at Natalie, what she was able to do, how she was able to structure her own business...”`,
     },
     {
-      src: "/video2.mp4",
+      src: "/video4.mp4",
       name: "CHANELLE SIMPSON",
       text: `“She lays it out so clearly... so many things I didn’t know that I needed to know...”`,
     },
     {
-      src: "/video2.mp4",
+      src: "/video6.mp4",
       name: "DEBBIE DINDSDALE",
       text: `“The highlight of working with Cardone Ventures is the focus on the things that matter...”`,
     },
     {
-      src: "/video2.mp4",
+      src: "/video5.mp4",
       name: "JEFF GIBSON",
       text: `“Natalie is a wealth of information… it’s changed how I communicate with my team...”`,
     },
     {
-      src: "/video2.mp4",
+      src: "/video7.mov",
       name: "NICHOLE FRANK",
       text: `“Working with Natalie has made it more fun… more meaningful. It’s making lives better.”`,
     },
