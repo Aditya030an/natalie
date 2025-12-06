@@ -1,5 +1,5 @@
 {
   "rootDirectory": "frontend",
-  "buildCommand": "next build",
+  "buildCommand": "next build && next export",
   "outputDirectory": "out"
 }
