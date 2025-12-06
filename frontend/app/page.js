@@ -1,7 +1,5 @@
 import Image from "next/image";
-import FadeIn from "../components/FadeIn";
-import AnimatedHeroName from "../components/AnimatedHeroName";
-import ScribbleUnderline from "../components/ScribbleUnderline";
+
 import { FiArrowUpRight } from "react-icons/fi";
 import HeroSection from "@/Components/Hero";
 import BooksSection from "@/Components/BooksSection";
